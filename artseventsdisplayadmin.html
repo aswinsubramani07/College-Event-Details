@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Garamond, Verdana, sans-serif;  
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNO384EPTH8oHAiAbAadlrZ8f0F7Icf4ejzizDZl-s_XAJst7ls11583aYe_wFbkAZZ-s&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size:1400px 700px;
+  color: #FFFFFF;
+}
+h1 {
+  color: #FFF8DC;
+  font-family: "Sofia", cursive;
+  font-size: 12px;
+  font-weight: bold;
+  font-size: 3.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 1px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 10px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>Event Names</h1>
+<br><button class="button"><a href="Symposiumadmin.html"><span>Symposium</span></button></a></br>
+<br><button class="button"><a href="Workshopadmin.html"><span>Workshop</span></button></a></br>
+<br><button class="button"><a href="Debuggingadmin.html"><span>Debugging</span></button></a></br>
+<br><button class="button"><a href="Project_Expoadmin.html"><span>Project Expo</span></button></a></br>
+<br><button class="button"><a href="Hackathonadmin.html"><span>Hackathon</span></button></a></br>
+<br><button class="button"><a href="Conferenceadmin.html"><span>Conference</span></button></a></br>
+<br><button class="button"><a href="Paper_Presentationadmin.html"><span>Paper Presentation</span></button></a></br>
+<br><button class="button"><a href="Quizadmin.html"><span>Quiz</span></button></a></br>
+<br><button class="button"><a href="Culturalsadmin.html"><span>Culturals</span></button></a></br>
+</center>
+</body>
+</html>
